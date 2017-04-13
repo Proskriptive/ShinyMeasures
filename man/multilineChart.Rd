@@ -4,10 +4,10 @@
 \alias{multilineChart}
 \title{Plotting Multi-line charts in R}
 \usage{
-multilineChart(multilinePlotingdata)
+multilineChart(multilinedata)
 }
 \arguments{
-\item{multilinePlotingdata}{It will contain the whole dataframe passed by the user to the function.}
+\item{multilinedata}{It will contain the whole dataframe passed by the user to the function.}
 }
 \description{
 Functions to render a plot of Multi-line chart of Metrics Graphics Library.

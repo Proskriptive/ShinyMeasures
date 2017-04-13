@@ -5,7 +5,8 @@
 \title{Ploting Dygraph in R}
 \usage{
 controlChartDygraph(tsData, headerText, enableDyrange = FALSE,
-  enableDyhighlight = FALSE)
+  enableDyhighlight = FALSE, legendalignment = "centre",
+  yaxisHeader = NULL)
 }
 \arguments{
 \item{tsData}{It will contain either the xts object or a numeric data frame.}
@@ -15,6 +16,10 @@ controlChartDygraph(tsData, headerText, enableDyrange = FALSE,
 \item{enableDyrange}{If \code{TRUE}, It will display the DyRange Selector Under the Dygraph.}
 
 \item{enableDyhighlight}{if \code{TRUE}, It will Display the series as highlighted whenever hovered over.}
+
+\item{legendalignment}{This will control the Text Alignment for showing Dygraph Plot values over dygraph chart.}
+
+\item{yaxisHeader}{It will show the Text for the Y-axis Plot.}
 }
 \description{
 Function to render a Dygraph Widget that plot time series data over customisable axes.
